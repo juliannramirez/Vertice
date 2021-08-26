@@ -1,8 +1,7 @@
-nav{
-    /* width: 1350px; */
+.navFlex{
     display: flex;
-    flex-direction: row;
-    /* margin: 100px 0px 0px 800px; */
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul{

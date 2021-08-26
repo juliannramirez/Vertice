@@ -1,0 +1,474 @@
+.gradianteFooter {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e7e0e0), color-stop(50%, black));
+  background-image: linear-gradient(to bottom, #e7e0e0, black 50%);
+}
+
+.transformTranslate:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-transition: -webkit-transform 3s;
+  transition: -webkit-transform 3s;
+  transition: transform 3s;
+  transition: transform 3s, -webkit-transform 3s;
+}
+
+.imgLogo:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+h1 {
+  color: #e3e3eb;
+}
+
+section {
+  height: 70vh;
+  width: 100vw;
+}
+
+legend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+P {
+  background-color: black;
+  color: #f8f8f8;
+  border: 3px solid #797575;
+  padding: 8px;
+  overflow: scroll;
+  height: 51vh;
+  width: 34vw;
+}
+
+.bodyPod {
+  background-color: black;
+}
+
+.flexboxRedes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -ms-flex-line-pack: left;
+      align-content: left;
+  margin-top: 180px;
+  margin-left: 175px;
+  color: white;
+}
+
+.divPadre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.divPadrePodcast {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.formFlexBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flexDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+legend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.sepRedes {
+  padding: 7px;
+}
+
+.btnInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexboxSello {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  margin-top: 120px;
+  font-size: 50px;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 280px 500px 340px;
+      grid-template-rows: 280px 500px 340px;
+}
+
+/* .grid2{
+    display: grid;
+    grid-template-columns: 50px 50px;
+} */
+.imagenIndex {
+  background-image: url("../Imagenes/fiesta-rave-mineria-monero.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* width: 1300px; */
+  height: 600px;
+}
+
+.imgLore {
+  height: 316px;
+  width: 580px;
+  border: solid 3px #797575;
+  /* border-radius: 5%; */
+}
+
+.imgSpotify {
+  width: 57px;
+  height: 57px;
+}
+
+.divMargin {
+  margin: 410px 3px 5px 3px;
+}
+
+.marginNombre {
+  margin-right: 185px;
+  margin-bottom: -19px;
+  margin-top: 20px;
+}
+
+.marginInput {
+  margin-left: 53px;
+}
+
+.marginButton {
+  margin-top: 10px;
+}
+
+.marginFooter {
+  margin-top: 120px;
+  margin-right: 65px;
+}
+
+.marginPodcast {
+  margin-bottom: 5px;
+}
+
+.marginHeader {
+  margin-bottom: 50px;
+}
+
+@media (min-width: 480px) and (max-width: 760px) {
+  .navFlex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.navFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul {
+  list-style: none;
+  font-size: 5;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+  right: 40px;
+  bottom: 2px;
+  font-size: 30px;
+  text-decoration: none;
+  background-color: black;
+  color: #f1efeb;
+  padding: 2px;
+  border: #c4c4d1 solid 3px;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+  list-style: none;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+li a {
+  color: #f1efeb;
+  text-decoration: none;
+}
+
+.letraFamily {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textoJustificado {
+  text-align: justify;
+}
+
+.textDecorado {
+  text-decoration: underline;
+  font-size: 0;
+}
+
+.negritaLetra {
+  font-weight: bold;
+}
+
+.textGoogleFonts {
+  font-family: 'Nunito', sans-serif;
+}
+
+.tituloPagina {
+  font-style: arial;
+  font-size: 45px;
+  margin-left: 15px;
+}
+
+.fondoTitulo2 {
+  background-color: black;
+  height: 8vh;
+  width: 17.5vw;
+}
+
+.fondoTitulo3 {
+  background-color: black;
+  height: 8vh;
+  width: 13vw;
+}
+
+.fondoTitulo4 {
+  background-color: black;
+  height: 8vh;
+  width: 9vw;
+}
+
+.fondoTitulo5 {
+  background-color: black;
+  height: 8vh;
+  width: 13vw;
+}
+
+.imgLogo {
+  width: 150px;
+  height: 150px;
+}
+
+.fondoHeader {
+  background-color: black;
+}
+
+.imgLore--radius {
+  border-radius: 10px;
+}
+
+.audios {
+  border-color: white;
+}
+
+.audios--red {
+  border-style: double;
+  border-radius: 15px;
+}
+
+.tituloPagina--principal {
+  padding: 2px;
+  border-style: ridge;
+}
+
+.borderAudio {
+  border: solid;
+}
+
+.borderAudio--second {
+  border: solid;
+  border-radius: 15px;
+}
+
+.TitulosTabla {
+  color: #f8f6f6;
+  font-family: 'Zilla Slab', serif;
+}
+
+.TitulosTabla--subrayado {
+  text-decoration: underline;
+}
+
+.letraFamily--negrita {
+  font-weight: bold;
+}
+
+.negritaLetra--subrayado {
+  text-decoration: underline;
+}
+
+p {
+  background-color: black;
+  color: #f8f8f8;
+  border: 3px solid #797575;
+  padding: 8px;
+  overflow: scroll;
+  height: 51vh;
+  width: 34vw;
+}
+
+.tamanioTabla-12px {
+  font-size: 12px;
+}
+
+.tamanioTabla-15px {
+  font-size: 15px;
+}
+
+.tamanioTabla-18px {
+  font-size: 18px;
+}
+
+.parrafoFondo-primero {
+  background-color: black;
+}
+
+.parrafoFondo-segundo {
+  background-color: #101049;
+}
+
+.parrafoFondo-tercero {
+  background-color: silver;
+}
+
+.logoImg, .logoIndex {
+  width: 170px;
+  height: 170px;
+}
+
+.logoIndex {
+  border: solid 1px silver;
+}
+
+.imgPod {
+  height: 316px;
+  width: 580px;
+  border: solid #797575 3px;
+}
+
+.flexBoxFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Estilos.css.map */

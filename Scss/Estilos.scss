@@ -1,3 +1,14 @@
+@import "./Clases-ID/Animaciones";
+@import "./Clases-ID/Etiquetas";
+@import "./Clases-ID/FlexBox";
+@import "./Clases-ID/Grid";
+@import "./Clases-ID/Imagenes";
+@import "./Clases-ID/Margin";
+@import "./Clases-ID/MediaQ";
+@import "./Clases-ID/Nav";
+@import "./Clases-ID/Texto";
+@import "./Clases-ID/Títulos";
+
 .imgLore--radius{
     border-radius: 10px;
 }
@@ -106,4 +117,10 @@ $lista:(primero:black, segundo:rgb(16, 16, 73), tercero:silver);
 
 .imgPod{
     @include tamImg(316px, 580px, 3px)
+}
+
+.flexBoxFooter{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
