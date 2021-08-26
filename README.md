@@ -1,0 +1,1 @@
+Proyecto de sitio web dedicado al ciclo de música electónica Vértice, en el cual se puede escuchar a los artistas, conocer más a los mismos y adquirir información sobre eventos y lanzamientos.
