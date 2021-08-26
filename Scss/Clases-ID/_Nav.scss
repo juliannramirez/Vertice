@@ -1,0 +1,39 @@
+nav{
+    /* width: 1350px; */
+    display: flex;
+    flex-direction: row;
+    /* margin: 100px 0px 0px 800px; */
+}
+
+ul{
+    list-style: none;
+    font-size: 5;
+}
+
+li{
+    display: inline-block;
+    position: relative;
+    right: 40px;
+    bottom: 2px;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: black;
+    color:rgb(241, 239, 235);
+    padding: 2px;
+    border: rgb(196, 196, 209) solid 3px;
+}
+
+ul ul{
+    position: absolute;
+    display: none;
+    list-style: none;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+li a{
+    color: rgb(241, 239, 235);
+    text-decoration: none;
+}

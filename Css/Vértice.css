@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: rgb(227, 227, 235);
+}
+
+
+.negritaLetra{
+    font-weight: bold;
+}
+
+.letraFamily{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.textoJustificado{
+    text-align: justify;
+}
+
+.textDecorado{
+    text-decoration: underline;
+    font-size: 0;
+}
+
+.imgLogo{
+    width: 150px;
+    height: 150px;
+}
+
+/*MENU*/
+
+nav{
+    /* width: 1350px; */
+    display: flex;
+    flex-direction: row;
+    /* margin: 100px 0px 0px 800px; */
+}
+
+ul{
+    list-style: none;
+    font-size: 5;
+}
+
+li{
+    display: inline-block;
+    position: relative;
+    right: 40px;
+    bottom: 2px;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: black;
+    color:rgb(241, 239, 235);
+    padding: 2px;
+    border: rgb(196, 196, 209) solid 3px;
+}
+
+ul ul{
+    position: absolute;
+    display: none;
+    list-style: none;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+li a{
+    color: rgb(241, 239, 235);
+    text-decoration: none;
+}
+
+th{
+    background-color: black;
+    color:rgb(248, 246, 246);
+    font-family: 'Zilla Slab', serif;
+}
+
+.imagenIndex{
+    background-image: url("../Imagenes/fiesta-rave-mineria-monero.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* width: 1300px; */
+    height: 600px;
+}
+
+.textGoogleFonts{
+    font-family: 'Nunito', sans-serif;
+}
+
+/*TITULOS*/
+
+.tituloPagina{
+    font-style:arial;
+    font-size: 45px;
+    margin-left: 15px;
+}
+
+/* .fondoTitulo{
+    background-color: black;
+    height: 8vh;
+    width: 12.5vw;
+    margin: -100px 100px 100px 190px;
+} */
+
+.fondoTitulo2{
+    background-color: black;
+    height: 8vh;
+    width: 17.5vw;
+}
+
+.fondoTitulo3{
+    background-color: black;
+    height: 8vh;
+    width: 13vw;
+}
+
+.fondoTitulo4{
+    background-color: black;
+    height: 8vh;
+    width: 9vw
+}
+
+.fondoTitulo5{
+    background-color: black;
+    height: 8vh;
+    width: 13vw
+}
+
+section{
+    height: 70vh;
+    width: 100vw;
+}
+
+/* .audiosArtistas1{
+    margin: 300px 15px 5px 350px;
+}
+
+.audiosArtistas2{
+    margin: 300px 100px 5px 20px;
+} */
+
+.divMargin{
+    margin: 410px 3px 5px 3px;
+}
+
+.imgLore{
+    height: 316px;
+    width: 580px;
+    border:solid 3px rgb(121, 117, 117);
+    /* border-radius: 5%; */;
+}
+
+.marginNombre{
+    margin-right: 185px;
+    margin-bottom: -19px;
+    margin-top: 20px;
+}
+
+.marginInput{
+    margin-left: 53px;
+}
+
+.marginButton{
+    margin-top: 10px;
+}
+
+/*FLEXBOX*/
+
+.flexboxRedes{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: left;
+    margin-top: 80px;
+    margin-left: 175px;
+    /* margin-bottom: 20px; */
+    color: white;
+}
+
+.divPadre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.divPadrePodcast{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+
+}
+.divFondo{
+    background-color: black;
+    /* width: 1300px; */
+}
+
+.formFlexBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -350px;
+}
+
+/*GRID*/
+
+.grid{
+    display: grid;
+    grid-template-rows: 280px 500px 340px;
+}
+
+.gradianteFooter{
+    background-image: linear-gradient(to bottom, rgb(231, 224, 224), black 50%);
+}
+
+.transformTranslate:hover{
+    transform: rotateY(180deg);
+    transition: transform 3s;
+}
+
+.logoImg:hover{
+    transform: scale(1.1);
+}
+
+/*INDEX*/
+
+.fondoHeader{
+    background-color: black;
+}
+
+.navFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexDiv{
+    display: flex;
+    align-items: center;
+}
+
+@media(min-width:480px) and (max-width:760px){
+    .navFlex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+legend{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+P{
+    background-color: black;
+    color: rgb(248, 248, 248);
+    border: 3px solid rgb(121, 117, 117);
+    padding: 8px;
+    overflow: scroll;
+    height: 51vh;
+    width: 34vw;
+}
+
+.imgSpotify{
+    width: 57px;
+    height: 57px;
+}
+
+.sepRedes{
+    padding: 7px;
+}
+
+.btnInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bodyPod{
+    background-color: black;
+}
+
+.marginPodcast{
+    margin-bottom: 5px;
+}
+
+.marginHeader{
+    margin-bottom: 50px;
+}
+
+.flexboxSello{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    margin-top: 120px;
+    font-size: 50px;
+}
+
+.flexBoxMap{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: left;
+    margin-top: 40px;
+    margin-left: 118px;
+    color: white;
+}
+
+.padMap{
+    padding: 25px
+}
+
+.mapsA{
+    color: white;
+}
