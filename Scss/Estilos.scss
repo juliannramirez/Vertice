@@ -9,6 +9,7 @@
 @import "./Clases-ID/Texto";
 @import "./Clases-ID/Títulos";
 
+
 .imgLore--radius{
     border-radius: 10px;
 }
@@ -125,6 +126,50 @@ $lista:(primero:black, segundo:rgb(16, 16, 73), tercero:silver);
     align-items: center;
 }
 
+
 .margMapa{
-    margin-left: 150px;
+    margin-right: 80px;
+}
+
+.margForm{
+    margin-left: 120px;
+}
+
+.flexboxRedes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -ms-flex-line-pack: left;
+        align-content: left;
+    margin-top: 20px;
+    margin-left: 175px;
+    color: white;
+  }
+
+  .imagenIndex {
+    background-image: url("../imagenes/Fabric-London.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+  }
+
+  li{
+    display: inline-block;
+    position: relative;
+    right: 40px;
+    bottom: 2px;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: black;
+    color:rgb(241, 239, 235);
+    padding: 2px;
+    border: rgb(196, 196, 209) solid 1px;
 }
