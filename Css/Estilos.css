@@ -471,4 +471,8 @@ p {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.margMapa {
+  margin-left: 150px;
+}
 /*# sourceMappingURL=Estilos.css.map */
