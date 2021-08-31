@@ -214,7 +214,7 @@ section{
 }
 
 .gradianteFooter{
-    background-image: linear-gradient(to bottom, rgb(231, 224, 224), black 50%);
+    background-image: linear-gradient(to bottom, rgb(61, 60, 60), black 50%);
 }
 
 .transformTranslate:hover{

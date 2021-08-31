@@ -153,7 +153,7 @@ $lista:(primero:black, segundo:rgb(16, 16, 73), tercero:silver);
     color: white;
   }
 
-  .imagenIndex {
+  .imagenIndex{
     background-image: url("../imagenes/Fabric-London.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -173,3 +173,25 @@ $lista:(primero:black, segundo:rgb(16, 16, 73), tercero:silver);
     padding: 2px;
     border: rgb(196, 196, 209) solid 1px;
 }
+
+.gradianteFooter{
+    background-image: linear-gradient(to bottom, rgb(59, 59, 59), black 50%);
+}
+
+.formFlexBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            color: white;
+  }
+  
