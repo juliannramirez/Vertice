@@ -1,0 +1,69 @@
+.flexBoxFooter{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+
+.flexboxRedes{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: left;
+    margin-top: 60px;
+    margin-left: 175px;
+    color: white;
+}
+
+.mapsA{
+    color: white;
+}
+
+.margMapa{
+    margin-right: 120px;
+}
+
+.flexBoxMap{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: left;
+    margin-top: 40px;
+    margin-left: 118px;
+    color: white;
+}
+
+.padMap{
+    padding: 25px
+}
+
+.flexBoxCopy{
+    flex-direction: column;
+    margin-right: 70px;
+    margin-top: 90px;
+    color: white;
+}
+
+.padRedes{
+    padding: 8px;
+}
+
+.fontWhatsApp {
+    font-size: 40px;
+    margin-top: 7px;
+}
+
+@media (max-width: 768px) {
+    .flexBoxFooter {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flexboxRedes {
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+}

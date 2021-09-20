@@ -1,38 +1,17 @@
-.navFlex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.logoImg{
+    width: 130px;
+    height: 130px;
 }
 
-ul{
-    list-style: none;
-    font-size: 5;
+.textLogo{
+    font-size: 45px;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 
-li{
-    display: inline-block;
-    position: relative;
-    right: 40px;
-    bottom: 2px;
-    font-size: 30px;
-    text-decoration: none;
-    background-color: black;
-    color:rgb(241, 239, 235);
-    padding: 2px;
-    border: rgb(196, 196, 209) solid 3px;
+.textNav{
+    font-size: 25px;
 }
 
-ul ul{
-    position: absolute;
-    display: none;
-    list-style: none;
-}
-
-ul li:hover ul{
-    display: block;
-}
-
-li a{
-    color: rgb(241, 239, 235);
-    text-decoration: none;
+.padNav{
+    padding: 3px;
 }

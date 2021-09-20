@@ -1,0 +1,79 @@
+.formFlexBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.margNombForm{
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+.margDivEmail{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.negritaLetra{
+    font-weight: bold;
+}
+
+.tamEmail{
+    width: 600px;
+}
+
+.btnInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.marginButton{
+    margin-top: 10px;
+}
+
+.tamNomb{
+    width: 480px;
+}
+
+.margDivNombre{
+    margin-bottom: 10px;
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .tamCons{
+        width: 400px;
+    }
+  
+    .tamEmail{
+      width: 350px;
+    }
+  
+    .tamNomb{
+      width: 240px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .tamCons{
+        width: 550px;
+    }
+  
+    .tamEmail{
+      width: 450px;
+    }
+  
+    .tamNomb{
+      width: 340px;
+    }
+}

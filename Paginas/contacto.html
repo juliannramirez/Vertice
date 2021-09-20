@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Música, Electronica, Ciclo, Eventos, Fiestas, Arte, Ocio, Sello, Lanzamientos">
-    <meta name="description" content="Página de Vértice apuntada a brindar novedades sobre eventos y lanzamientos del ciclo">
-    <title>Novedades Vértice</title>
+    <meta name="keywords" content="Música, Electronica, Ciclo, Eventos, Fiestas, Arte, Ocio, Contacto, Consultas, Contrataciones">
+    <meta name="description" content="Página de Vértice apuntada a brindar un espacio de contacto con los usuarios del sitio.">
+    <title>Contacto Vértice</title>
     <link rel="stylesheet" href="../Css/bootstrap.min.css">
     <link rel="stylesheet" href="../Css/estilos.css">
     <script src="https://kit.fontawesome.com/c1aa583fd9.js" crossorigin="anonymous"></script>
 </head>
-<body class="bodyPod">
+<body class="row g-0 bodyPod">
     <div class="row g-0">
         <header>
 
@@ -45,43 +45,30 @@
             </nav>           
         </header>
 
-        <!-- SECTION/TABLA NOVEDADES -->
+        <!-- FORM CONTACTO -->
 
-        <section>
-            <table class="margEventos table table-dark table-hover table-striped" border=2>
-                <thead>
-                    <tr>
-                        <th class="TitulosTabla TitulosTabla--subrayado">Evento/Locación</th>
-                        <th class="TitulosTabla TitulosTabla--subrayado">Fecha</th>
-                        <th class="TitulosTabla TitulosTabla--subrayado">Ciudad</th>
-                        <th class="TitulosTabla TitulosTabla--subrayado">Galería</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="letraFamily letraFamily--negrita tamanioTabla-18px" >Niceto Bar</td>
-                        <td class="letraFamily tamanioTabla-16px">15/05/2021</td>
-                        <td class="letraFamily tamanioTabla-16px">Buenos Aires</td>
-                        <td class="letraFamily"><a class="mapsA" href="./galeria.html">Ir</a></td>
-                    </tr>
-                    <tr>
-                        <td class="letraFamily letraFamily--negrita tamanioTabla-18px">Niceto Bar</td>
-                        <td class="letraFamily tamanioTabla-16px">06/08/2021</td>
-                        <td class="letraFamily tamanioTabla-16px">Buenos Aires</td>
-                        <td class="letraFamily"><a class="mapsA" href="./galeria.html">Ir</a></td>
-                    </tr>
-                    <tr>
-                        <td class="letraFamily letraFamily--negrita tamanioTabla-18px">Niceto Club</td>
-                        <td class="letraFamily tamanioTabla-16px">15/10/2021</td>
-                        <td class="letraFamily tamanioTabla-16px">Buenos Aires</td>
-                        <td class="letraFamily">-</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+        <div>
+            <form class="formFlexBox" action="Contactanos.php" enctype="application/x-www-form-urlencoded" method="GET">
+                <h2 class="margNombForm">Contactanos</h2>
+                <div class="margDivNombre">
+                    <label class="negritaLetra" for="Nombre">Nombre</label>
+                    <input class="tamNomb" type="email" placeholder="Nombre completo">
+                </div>
+                <div class="margDivEmail">
+                    <label class="negritaLetra" for="Email"> Email</label>
+                    <input class="tamEmail" type="email" placeholder="Ingrese su correo electrónico">
+                </div>
+                <textarea class="tamCons" name="Contactanos" id="" cols="100" rows="12" placeholder="Ingrese su consulta aqui"></textarea>
+                <div class="btnInfo">
+                <button class="marginButton" type="submit">Enviar
+                <i class="fas fa-paper-plane"></i>
+                </button>
+                </div>
+            </form>
+        </div>
 
         <!-- FOOTER -->
-        
+
         <footer>
             <div class="flexBoxFooter">   
                 <div class="flexboxRedes">
@@ -99,6 +86,7 @@
                         <h5><a class="mapsA" href="../index.html">Inicio</a></h5>
                         <h5><a class="mapsA" href="./residentes.html">Residentes</a></h5>
                         <h5><a class="mapsA" href="./podcast.html">Podcast</a></h5>
+                        
                     </div>
                     <div class="column padMap">
                         <h5><a class="mapsA" href="./novedades.html">Novedades</a></h5>

@@ -1,0 +1,80 @@
+.margSection{
+    margin-bottom: 20px;
+}
+
+.divPadrePodcast{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+
+}
+
+.imgPod{
+    border: solid 1px; color: rgb(121, 117, 117);
+}
+
+.imgLore{
+    height: 316px;
+    width: 580px;
+    border:solid 1px rgb(121, 117, 117);
+}
+
+.textoJustificado{
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+}
+
+.negritaLetra{
+    font-weight: bold;
+}
+
+P {
+    background-color: black;
+    color: #f8f8f8;
+    border: 3px solid #797575;
+    padding: 8px;
+    width: 1250px;
+}
+
+.divP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .divPadrePodcast{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    
+    }
+  
+    P {
+        background-color: black;
+        color: #f8f8f8;
+        border: 3px solid #797575;
+        padding: 2px;
+        width: 700px;
+        margin-right: 175px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .divPadrePodcast{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    
+    }
+  
+    P {
+        background-color: black;
+        color: #f8f8f8;
+        border: 3px solid #797575;
+        padding: 2px;
+    }
+}

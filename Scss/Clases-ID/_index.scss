@@ -1,0 +1,39 @@
+.bodyPod{
+    background-color: black;
+}
+
+.divMargin{
+    margin: 410px 3px 5px 3px;
+}
+
+.divPadre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imagenIndex{
+    background-image: url(../imagenes/Fabric-London.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+
+@media (max-width: 768px) {
+    .divPadre{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+  
+    .divMargin{
+      margin: 350px 0px 0px 0px;
+    }
+  
+    .audios{
+      padding: 8px;
+    }
+  
+}
