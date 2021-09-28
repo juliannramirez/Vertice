@@ -14,3 +14,11 @@
 .margEvento2{
     margin-top: 30px;
 }
+
+@media (max-width: 768px) {
+    .TextGaleria{
+        font-family: 'Oswald', sans-serif;
+        font-size: 40px;
+        margin-left: 80px;
+    }
+}

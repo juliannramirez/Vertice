@@ -29,7 +29,7 @@
 }
 
 .tamEmail {
-  width: 600px;
+  width: 621px;
 }
 
 .btnInfo {
@@ -49,7 +49,7 @@
 }
 
 .tamNomb {
-  width: 480px;
+  width: 620px;
 }
 
 .margDivNombre {
@@ -63,6 +63,10 @@ h1 {
 
 h2 {
   color: white;
+}
+
+.margEmail {
+  margin-right: 20px;
 }
 
 @media (max-width: 576px) {
@@ -192,6 +196,7 @@ P {
     color: #f8f8f8;
     border: 3px solid #797575;
     padding: 2px;
+    width: 500px;
   }
 }
 
@@ -232,6 +237,14 @@ P {
 
 .margEvento2 {
   margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .TextGaleria {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    margin-left: 80px;
+  }
 }
 
 .flexBoxFooter {
@@ -335,6 +348,7 @@ P {
         -ms-flex-align: center;
             align-items: center;
     margin-left: 0;
+    margin-top: 220px;
   }
 }
 
@@ -398,7 +412,7 @@ P {
 }
 
 .imagenIndex {
-  background-image: url(../../imagenes/Fabric-London-min.jpg);
+  background-image: url(../imagenes/Fabric-London-min.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
