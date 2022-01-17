@@ -69,6 +69,21 @@ h2 {
   margin-right: 20px;
 }
 
+.margNomb {
+  margin-right: 350px;
+  margin-left: 350px;
+}
+
+.margCorreo {
+  margin-right: 340px;
+  margin-left: 340px;
+}
+
+.margTexto {
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
 @media (max-width: 576px) {
   .tamCons {
     width: 400px;
@@ -237,6 +252,11 @@ P {
 
 .margEvento2 {
   margin-top: 30px;
+}
+
+.line {
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
 }
 
 @media (max-width: 768px) {
